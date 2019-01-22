@@ -1,0 +1,152 @@
+.FeelingFineP {
+    text-align: center;
+    display: flex;
+    height: 650px;
+    justify-content: center;
+    align-items: center;
+}
+
+.choiceX, .hardChoice {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.greedyButton, .Jerry, .no, .bButton, .clickX, .iSee, .textDiv, .screamInput, .treasure, .move, .narratorX22 {
+    display: none;
+    text-align: center;
+}
+
+.x, .b {
+    display: none;
+}
+
+.x1 {
+    color: red;
+}
+
+.x2 {
+    color: red;
+}
+
+.x3 {
+    color: blue;
+}
+
+/* Cherished Items Blog CSS */
+.header {
+    background-color: #f4d742;
+    padding: 25px;
+    text-align: center;
+}
+
+.otherPages {
+    display: flex;
+    justify-content: center;
+    background-color: lightblue;
+}
+
+.subH, .subA, .subP, .subD, .subAns {
+    margin: 4px 2px;
+    color: white;
+    padding: 10px 15px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.subH {
+    background-color: green;
+}
+
+.subA {
+    background-color: blue;
+}
+
+.subP {
+    background-color: purple;
+}
+
+.subD {
+    background-color: red;
+}
+
+.postContainer {
+    text-align: center;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: white;
+    padding: 45px;
+    box-shadow: 0px 0px 10px 8px #888888;
+}
+
+.post {
+    border-bottom: 1px solid black;
+    padding: 20px;
+}
+
+.max {
+    max-width: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.profilepic {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.comment {
+    margin: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.commentSect {
+    height: 100px;
+    overflow: auto;
+    margin: 10px;
+}
+
+input {
+    width: 70%;
+}
+
+.sendicon {
+    width: 20%;
+}
+
+.sendButton {
+    width: 30%;
+}
+
+.send {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hiddenLink {
+    cursor: pointer;
+    color: #0000FF;
+    text-decoration: underline;
+}
+/* Cherished Items Blog CSS */
+
+.pancakes {
+    width: 200px;
+}
+
+.move {
+    position: absolute;
+    padding: 20px;
+    top: 500px;
+    left: 500px;
+}
