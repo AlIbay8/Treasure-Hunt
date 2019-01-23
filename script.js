@@ -206,6 +206,7 @@ $(".tab").click(function() {
     $(".narratorX3").text("I see that you are a clever one. You deserve this treasure.");
         $(".tab").hide();
         $(".click").hide();
+        $("button").hide();
         $(".treasure").show();
         $(".treasure").html("<img src='https://images-na.ssl-images-amazon.com/images/I/71vDVbJGotL._SX466_.jpg'>");
 });
@@ -214,6 +215,7 @@ $(".click").click(function() {
     $(".narratorX3").text("I guess that works as well.");
         $(".tab").hide();
         $(".click").hide();
+        $("button").hide();
         $(".treasure").show();
         $(".treasure").html("<img src='https://images-na.ssl-images-amazon.com/images/I/71vDVbJGotL._SX466_.jpg'>");
 });
@@ -221,6 +223,11 @@ $(".click").click(function() {
 $(".tab").mouseenter(function() {
     $(".tab").hide();
     $(".click").show();
+});
+
+$(".click").mouseleave(function() {
+    $(".tab").show();
+    $(".click").hide();
 });
 
 
