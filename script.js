@@ -198,26 +198,28 @@ $(".dialogueX3").click(function() {
 });
 
 setInterval(function() {
-    $(".move").css('left', Math.random() * 700);
-    $(".move").css('top', Math.random() * 700);
+    $(".move").css('left', Math.random() * $(document).width());
+    $(".move").css('top', Math.random() * $(document).height());
 }, 500);
 
 $(".tab").click(function() {
     $(".narratorX3").text("I see that you are a clever one. You deserve this treasure.");
-        $(".tab").hide();
-        $(".click").hide();
-        $("button").hide();
-        $(".treasure").show();
-        $(".treasure").html("<img src='https://images-na.ssl-images-amazon.com/images/I/71vDVbJGotL._SX466_.jpg'>");
+    $(".tab").hide();
+    $(".click").hide();
+    $(".move").hide();
+    $(".hideBtn").hide();
+    $(".treasure").show();
+    $(".treasure").html("<img src='https://images-na.ssl-images-amazon.com/images/I/71vDVbJGotL._SX466_.jpg'>");
 });
 
 $(".click").click(function() {
     $(".narratorX3").text("I guess that works as well.");
-        $(".tab").hide();
-        $(".click").hide();
-        $("button").hide();
-        $(".treasure").show();
-        $(".treasure").html("<img src='https://images-na.ssl-images-amazon.com/images/I/71vDVbJGotL._SX466_.jpg'>");
+    $(".tab").hide();
+    $(".click").hide();
+    $(".move").hide();
+    $(".hideBtn").hide();
+    $(".treasure").show();
+    $(".treasure").html("<img src='https://images-na.ssl-images-amazon.com/images/I/71vDVbJGotL._SX466_.jpg'>");
 });
 
 $(".tab").mouseenter(function() {
